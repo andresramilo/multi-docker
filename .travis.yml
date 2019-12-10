@@ -10,3 +10,6 @@ before_install:
 
 script:
   - docker run -e CI=true andresramilo/react-test npm run test
+
+after_success:
+  - docker build -t andresramilo/multi-client ./client
