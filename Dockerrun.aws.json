@@ -24,7 +24,7 @@
      },
      {
         "name": "nginx",
-        "image": "andresramilo/multi-worker",
+        "image": "andresramilo/multi-nginx",
         "essential": true,
         "portMappings": [
           {
